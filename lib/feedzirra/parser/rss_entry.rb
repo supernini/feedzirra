@@ -16,6 +16,7 @@ module Feedzirra
       
       element :pubDate, :as => :published
       element :pubdate, :as => :published
+      element :image, :as => :image
       element :"dc:date", :as => :published
       element :"dc:Date", :as => :published
       element :"dcterms:created", :as => :published
